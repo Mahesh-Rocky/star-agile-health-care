@@ -17,5 +17,5 @@
     become_user : root
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8082 maheshrocky590/healthcare:13
+    command: docker run -itd -p 8084:8082 maheshrocky590/healthcare:14
 
